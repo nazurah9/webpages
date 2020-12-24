@@ -1,0 +1,142 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2a9d8f;
+}
+
+#header {
+    text-align: center;
+    padding: 30px;
+    background-color:#264653;
+}
+
+#header h1, #header h3 {
+    color: white;
+}
+
+#intropic {
+    border-radius: 50%;
+    border: 5px solid pink;
+    margin-bottom: 30px; 
+    width: 300px;
+    height: auto;   
+}
+
+#timepic {
+    width: 300px;
+    height: auto;
+    margin: 30px;
+}
+
+.dividingLine {
+    color: white;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+.navitem {
+    color: white;
+    font-size: 1.5em;
+    padding: 0px;
+    margin: 0px 20px 0px 20px;
+}
+
+.navitem:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transform: scale(1.2);
+}
+
+#content {
+    padding: 30px;
+}
+
+.contentImage {
+    width: 350px;
+    border: 4px solid pink;
+    margin-left: 10px;
+    padding: 0px;
+    text-align: left;
+}
+
+#contentBox .contentTitle {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contentCaption {
+    color: rgb(179, 179, 179);
+    font-size: 1em;
+    text-align: left;
+}
+
+.contentBody {
+    text-align: left;
+    color: white;
+    font-size: 1.2em;
+}
+
+#contentBox {
+    background-color: #264653;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.tinderLogo {
+    height: 350px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secretImage {
+    border-radius: 10%;
+    width: 450px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.secretCaption {
+    color: rgb(179, 179, 179);
+    font-size: 1em;
+    text-align: center;
+}
+
+.secretBody {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.tinderLogo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#loader {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+  

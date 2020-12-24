@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Nazuzuzuzu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="ShowPage()">
+    <div id="header" class="container-fluid">
+        <img id="intropic" src="img/IntroPic.png" />
+        <h1 id="introduction">Hi! my name is Nazebo</h1>
+        <h3>And you're watching: 
+            <span style="color: deeppink;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                </svg>
+                My romantic life 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                </svg>
+            </span>
+        </h3>
+        <hr size='10px' class="dividingLine" />
+        <div id="navbar" class="row justify-content-md-center">
+            <div class="col-sm">
+                <a href="index.html"><p class="navitem">Homepage</p></a>
+            </div>
+            <div class="col-sm">
+                <a href="Discover.html"><p class="navitem">Discover</p></a>
+            </div>
+            <div class="col-sm">
+                <a href="Tinder.html"><p class="navitem">Tinder</p></a>
+            </div>
+            <div class="col-sm">
+                <a href="About.html"><p class="navitem">About</p></a>
+            </div>          
+        </div>
+        <hr size='10px' class="dividingLine" />
+    </div>
+    <div id="content" class="container-fluid">
+        <div id="contentBox" class="row">
+            <div id="loader"></div>
+            <h5 style="margin-top: 20px" id="loaderText" class="contentTitle">
+                Please wait a minute because you have to be patient
+            </h5>
+            <div id="loaded" style="margin: 0px; padding: 0px; display: none">
+                <h1 class="contentTitle">Thanks for waiting!</h1>
+                <hr size='10px' class="dividingLine" />
+                <p class="contentBody">
+                    Because you have been very patient, you have been granted the privillege of viewing the SECRET PAGE. Keep in mind that this page is one of the MOST 
+                    SECRETEST HIDE-EST page that has ever existed in the history of the world. People who have been granted the privillege of seeing this page 
+                    have to be one of the most important people in existence. I hope you take pride in this achievement and keep this moment in your heart forever as 
+                    you have achieved the impossible. Since I am such a nice person, you may also write about this moment in your resume for employers to see. 
+                </p>
+                <h2 style="color: white">NOW, without further ado...</h2>
+            </div>
+            <a id="secretButton" style="text-align: center; display: none" href="Secret.html"><button style="font-size: 2em" type="button" class="btn btn-primary">Secret page</button></a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="ShowPage.js"></script>
+</body>
+</html>
