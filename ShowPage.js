@@ -2,6 +2,14 @@ function ShowPage() {
     setTimeout(LoadPage, 5000); //PLEASE DO NOT CHANGE THIS! YOU HAVE TO PLAY THE GAME TO UNLOCK THE SECRET! DON'T BE A CHEATER I'M WATCHING YOU!!!!
 }
 
+function ShowDifferentPage() {
+    setTimeout(OpenDatabase, 3000);
+}
+
+function OpenDatabase() {
+    location.href = "Database.html";
+}
+
 function LoadPage() {
     document.getElementById("loader").style.display = "none";
     document.getElementById("loaderText").style.display = "none";
